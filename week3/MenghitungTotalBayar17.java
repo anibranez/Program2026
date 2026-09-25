@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class MenghitungTotalBayar17 {
     public static void main(String[] args) {
-        int harga;
+        double harga;
         double potongan;
         double jml_bayar;
         double diskon = 0.15;
