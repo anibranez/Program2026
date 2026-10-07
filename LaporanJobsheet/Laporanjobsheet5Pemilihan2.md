@@ -72,7 +72,7 @@ public class nestedUjianSkripsi17 {
 #### 2.1.2 Hasil Running / Screenshot Output
 Berikut adalah contoh tampilan *output* setelah program dijalankan:
 
-![Contoh Gambar Output Percobaan 1](/Screenshot 2026-10-04 202016.png)
+![Contoh Gambar Output Percobaan 1](/OutNestedUjian.png)
 
 #### 2.1.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 * **Pertanyaan 1:** Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen?
@@ -129,6 +129,9 @@ public class operatorLogikaWifi17 {
 }
 ```
 #### 2.2.2 Hasil Running / Screenshot Output
+Berikut adalah contoh tampilan *output* setelah program dijalankan:
+
+![Contoh Gambar Output Percobaan 2](/OutAksesWifi.png)
 
 #### 2.2.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 * **Pertanyaan 1:** Jelaskan fungsi operator ||, &&, dan ! pada kondisi program tersebut.
@@ -202,6 +205,9 @@ public class nestedAksesLab17 {
 }
 ```
 #### 2.2.2 Hasil Running / Screenshot Output
+Berikut adalah contoh tampilan *output* setelah program dijalankan:
+
+![Contoh Gambar Output Percobaan 2](/OutAksesLab.png)
 
 #### 2.2.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 * **Pertanyaan 1:** Mengapa pemeriksaan punyaIzinDosen || asistenLab ditempatkan di dalam IF pertama?
