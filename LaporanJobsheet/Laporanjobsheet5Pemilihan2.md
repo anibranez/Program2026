@@ -72,7 +72,7 @@ public class nestedUjianSkripsi17 {
 #### 2.1.2 Hasil Running / Screenshot Output
 Berikut adalah contoh tampilan *output* setelah program dijalankan:
 
-![Contoh Gambar Output Percobaan 1]<img src="OutNestedUjian.png">
+<img src="OutNestedUjian.png">
 
 #### 2.1.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 * **Pertanyaan 1:** Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen?
@@ -131,22 +131,22 @@ public class operatorLogikaWifi17 {
 #### 2.2.2 Hasil Running / Screenshot Output
 Berikut adalah contoh tampilan *output* setelah program dijalankan:
 
-![Contoh Gambar Output Percobaan 2]<img src="OutAksesWifi.png"/>
+<img src="OutAksesWifi.png"/>
 
 #### 2.2.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 * **Pertanyaan 1:** Jelaskan fungsi operator ||, &&, dan ! pada kondisi program tersebut.
-  * **Jawab:**Operator || digunakan untuk mengecek apakah pengguna merupakan mahasiswa atau dosen. Salah satu kondisi bernilai true sudah cukup. Operator && digunakan untuk memastikan bahwa syarat pengguna mahasiswa/dosen dan akun tidak diblokir harus terpenuhi. Operator ! digunakan untuk membalik nilai akunDiblokir, sehingga true menjadi false dan sebaliknya.
+  * **Jawab:** Operator || digunakan untuk mengecek apakah pengguna merupakan mahasiswa atau dosen. Salah satu kondisi bernilai true sudah cukup. Operator && digunakan untuk memastikan bahwa syarat pengguna mahasiswa/dosen dan akun tidak diblokir harus terpenuhi. Operator ! digunakan untuk membalik nilai akunDiblokir, sehingga true menjadi false dan sebaliknya.
 * **Pertanyaan 2:** Mengapa pengguna dosen tetap dapat memperoleh akses ketika nilai mahasiswa = false?
-  * **Jawab:**Karena menggunakan operator || yang berarti OR (atau). Jika mahasiswa = false tetapi dosen = true, maka kondisi mahasiswa || dosen tetap bernilai true. Selama akun tidak diblokir, pengguna tetap mendapatkan akses WiFi.
-* **Pertanyaan 3:**Ubah operator || menjadi &&. Jalankan kembali program menggunakan data uji 1 dan 2.
+  * **Jawab:** Karena menggunakan operator || yang berarti OR (atau). Jika mahasiswa = false tetapi dosen = true, maka kondisi mahasiswa || dosen tetap bernilai true. Selama akun tidak diblokir, pengguna tetap mendapatkan akses WiFi.
+* **Pertanyaan 3:** Ubah operator || menjadi &&. Jalankan kembali program menggunakan data uji 1 dan 2.
 Apa yang terjadi dan mengapa?
-  * **Jawab:**Jika || diubah menjadi &&, maka pengguna harus berstatus mahasiswa dan dosen sekaligus agar dapat melewati kondisi pertama. Jika salah satu bernilai false, kondisi menjadi false sehingga akses WiFi ditolak. Hal ini berbeda dengan || yang hanya membutuhkan salah satu dari mahasiswa atau dosen bernilai true.
-* **Pertanyaan 4:**Pada ekspresi mahasiswa || dosen, kapan kondisi dosen tidak perlu dievaluasi? Jelaskan
+  * **Jawab:** Jika || diubah menjadi &&, maka pengguna harus berstatus mahasiswa dan dosen sekaligus agar dapat melewati kondisi pertama. Jika salah satu bernilai false, kondisi menjadi false sehingga akses WiFi ditolak. Hal ini berbeda dengan || yang hanya membutuhkan salah satu dari mahasiswa atau dosen bernilai true.
+* **Pertanyaan 4:** Pada ekspresi mahasiswa || dosen, kapan kondisi dosen tidak perlu dievaluasi? Jelaskan
 berdasarkan short-circuit evaluation.
-  * **Jawab:**Kondisi dosen tidak perlu dievaluasi ketika mahasiswa sudah bernilai true. Karena operator || hanya membutuhkan salah satu kondisi bernilai true, program langsung mengetahui hasilnya true tanpa mengevaluasi kondisi dosen.
-* **Pertanyaan 5:**Pada ekspresi (mahasiswa || dosen) && !akunDiblokir, kapan kondisi !akunDiblokir tidak
+  * **Jawab:** Kondisi dosen tidak perlu dievaluasi ketika mahasiswa sudah bernilai true. Karena operator || hanya membutuhkan salah satu kondisi bernilai true, program langsung mengetahui hasilnya true tanpa mengevaluasi kondisi dosen.
+* **Pertanyaan 5:** Pada ekspresi (mahasiswa || dosen) && !akunDiblokir, kapan kondisi !akunDiblokir tidak
 perlu dievaluasi? Jelaskan.
-  * **Jawab:**Kondisi !akunDiblokir tidak perlu dievaluasi ketika (mahasiswa || dosen) bernilai false. Karena menggunakan operator &&, jika kondisi pertama sudah false, hasil keseluruhan pasti false, sehingga Java tidak perlu mengevaluasi kondisi berikutnya. Ini disebut short-circuit evaluation.
+  * **Jawab:** Kondisi !akunDiblokir tidak perlu dievaluasi ketika (mahasiswa || dosen) bernilai false. Karena menggunakan operator &&, jika kondisi pertama sudah false, hasil keseluruhan pasti false, sehingga Java tidak perlu mengevaluasi kondisi berikutnya. Ini disebut short-circuit evaluation.
 
 
 
@@ -207,7 +207,7 @@ public class nestedAksesLab17 {
 #### 2.2.2 Hasil Running / Screenshot Output
 Berikut adalah contoh tampilan *output* setelah program dijalankan:
 
-![Contoh Gambar Output Percobaan 3]<img src="OutAksesLab.png">
+<img src="OutAksesLab.png">
 
 #### 2.2.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 * **Pertanyaan 1:** Mengapa pemeriksaan punyaIzinDosen || asistenLab ditempatkan di dalam IF pertama?
@@ -217,10 +217,10 @@ Berikut adalah contoh tampilan *output* setelah program dijalankan:
 * **Pertanyaan 3:** Apakah syarat akses dapat ditulis menjadi satu kondisi: mahasiswaAktif &&
 !sedangDisanksi && (punyaIzinDosen || asistenLab)? Jelaskan apakah keputusan akses
 akhirnya sama.
-  * **Jawab:**Ya, syarat tersebut dapat ditulis menjadi satu kondisi. Keputusan akses akhirnya akan sama, karena semua syarat yang diperlukan tetap diperiksa. Namun, Nested IF lebih mudah digunakan apabila program ingin memberikan alasan penolakan yang berbeda berdasarkan tahap pemeriksaannya.
+  * **Jawab:** Ya, syarat tersebut dapat ditulis menjadi satu kondisi. Keputusan akses akhirnya akan sama, karena semua syarat yang diperlukan tetap diperiksa. Namun, Nested IF lebih mudah digunakan apabila program ingin memberikan alasan penolakan yang berbeda berdasarkan tahap pemeriksaannya.
 * **Pertanyaan 4:** Apa keuntungan menggunakan Nested IF pada kasus ini dibandingkan hanya satu IF jika
 sistem perlu menampilkan alasan penolakan yang berbeda?
-  * **Jawab:**Keuntungan Nested IF adalah program dapat melakukan pemeriksaan secara bertahap dan memberikan alasan penolakan yang lebih spesifik. Misalnya, jika mahasiswa tidak aktif atau sedang disanksi, program menampilkan alasan penolakan pada tahap pertama. Jika tahap pertama terpenuhi tetapi tidak memiliki izin dosen dan bukan asisten lab, program dapat menampilkan alasan penolakan pada tahap kedua.
+  * **Jawab:** Keuntungan Nested IF adalah program dapat melakukan pemeriksaan secara bertahap dan memberikan alasan penolakan yang lebih spesifik. Misalnya, jika mahasiswa tidak aktif atau sedang disanksi, program menampilkan alasan penolakan pada tahap pertama. Jika tahap pertama terpenuhi tetapi tidak memiliki izin dosen dan bukan asisten lab, program dapat menampilkan alasan penolakan pada tahap kedua.
 * **Pertanyaan 5:** Buat satu kombinasi masukan yang menyebabkan akses ditolak pada level pertama dan
 satu kombinasi yang menyebabkan akses ditolak pada level kedua.
   * **Jawab:**
