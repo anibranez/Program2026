@@ -507,10 +507,17 @@ public class Tugas317 {
 #### Hasil Running / Screenshot Output
 Data uji: Toko 1 dengan 2 pelanggan (3 dan 2 barang), Toko 2 dengan 3 pelanggan (1, 4, dan 2 barang).
 ```
-Toko 1 - pelanggan: 2, total barang: 5
-Toko 2 - pelanggan: 3, total barang: 7
-Total barang seluruh toko: 12
-Toko dengan barang terbanyak: 2
+Masukkan jumlah toko: 2
+Jumlah pelanggan Toko 1: 2
+  Jumlah barang pelanggan 1: 2
+  Jumlah barang pelanggan 2: 1
+Toko 1 - pelanggan: 2, total barang: 3
+Jumlah pelanggan Toko 2: 2
+  Jumlah barang pelanggan 1: 1
+  Jumlah barang pelanggan 2: 1
+Toko 2 - pelanggan: 2, total barang: 2
+Total barang seluruh toko: 5
+Toko dengan barang terbanyak: 1
 ```
 
 
