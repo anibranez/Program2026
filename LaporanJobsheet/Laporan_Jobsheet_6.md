@@ -181,16 +181,8 @@ public class StudiKasus2_17 {
 | 3 | pkm | 4 | 1 (lolos) | Berhak memperoleh dana penghargaan (PKM lolos pendanaan). |
 | 4 | Lainnya | 4 | (tidak ditanyakan) | Tidak memperoleh dana penghargaan (jenis kegiatan tidak termasuk ketentuan). |
 
-<img src="OutStudiKasus2.png">
 
-#### 2.4.3 Riwayat Commit Git
-1. Commit pertama: `SK2: cabang lomba`
-2. Commit kedua: `SK2: cabang PKM dan lainnya`
-3. **Push** ke GitHub setelah kode selesai.
-
-<img src="CommitStudiKasus2.png">
-
-#### 2.4.4 Analisis
+#### 2.4.3 Analisis
 * Kedalaman *nested if* maksimal 3 tingkat: jenis kegiatan → peringkat/status pendanaan → kelengkapan dokumen.
 * `equalsIgnoreCase()` dipakai agar huruf besar/kecil tidak berpengaruh pada jenis kegiatan.
 * Program hanya menanyakan data yang diperlukan. Peringkat juara hanya ditanyakan pada cabang lomba, status pendanaan hanya pada PKM, dan cabang Lainnya tidak menanyakan data tambahan.
@@ -221,13 +213,8 @@ Hasil Uji Studi Kasus 2 oleh [Nama Teman]
 | 4  | Lainnya | 4       | -          | Tidak memperoleh dana                  | Ya      |
 ```
 
-<img src="OutUjiSilang.png">
-<img src="CommitTeman.png">
 
-#### 2.5.3 Analisis
-* Kolaborasi melalui GitHub memungkinkan orang lain mengubah repository setelah menjadi *collaborator*.
-* **Pull** wajib dilakukan sebelum mengubah file yang sama (misalnya `README.md`) agar tidak terjadi konflik.
-* Semua hasil uji sesuai dengan keluaran yang diharapkan, sehingga tidak diperlukan perbaikan program.
+
 
 #### Ringkasan Tombol Git di VS Code
 
